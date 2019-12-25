@@ -26,7 +26,7 @@
     "scripts": {
         "build": "gatsby build",
         "start": "gatsby develop -o",
-        "deploy": "gatsby clean && gatsby build && gh-pages -d public -b master -r git@github.com:teug91/klovn.github.io.git",
+        "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b master -r git@github.com:teug91/klovn.git",
         "clean": "gatsby clean",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     },
