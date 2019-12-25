@@ -15,7 +15,7 @@ module.exports = {
                 short_name: 'Instant Klovn',
                 start_url: '/klovn/',
                 background_color: 'white',
-                theme_color: '#e71e26',
+                theme_color: 'white',
                 display: 'standalone',
                 icon: 'src/images/icon.png',
             },

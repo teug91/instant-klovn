@@ -1,2 +1,2 @@
 export { Icon } from './Icon'
-export { play, pause } from './icons'
+export { play, stop } from './icons'

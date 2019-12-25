@@ -1,2 +1,2 @@
-export const play = 'M8 5v14l11-7z'
-export const pause = 'M6 19h4V5H6v14zm8-14v14h4V5h-4z'
+export const play = 'M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82z'
+export const stop = 'M8 6h8c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2z'

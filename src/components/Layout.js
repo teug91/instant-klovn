@@ -11,12 +11,15 @@ const BodyStyle = createGlobalStyle`
     }
 `
 
-const Main = styled.main`
+const Content = styled.div`
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top: 64px;
+`
+
+const Main = styled.main`
+    margin: auto 0;
 `
 
 const Head = () => (
@@ -30,7 +33,9 @@ export const Layout = ({ children }) => (
     <>
         <Head />
         <BodyStyle />
-        <Header />
-        <Main>{children}</Main>
+        <Content>
+            <Header />
+            <Main>{children}</Main>
+        </Content>
     </>
 )

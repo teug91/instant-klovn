@@ -8,7 +8,6 @@ export const Icon = ({ icon }) => (
         height="120"
         viewBox="0 0 24 24"
     >
-        <path d={icon} fill={colors.red} />
-        <path d="M0 0h24v24H0z" fill="none" />
+        <path d={icon} fill="white" />
     </svg>
 )

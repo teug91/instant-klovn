@@ -1,14 +1,14 @@
-import React, { Suspense } from 'react'
+import React, { lazy, Suspense } from 'react'
 import klovn from '../../audio/klovn.mp3'
 
-const ClientSideLazy = React.lazy(() => import('./ClientSide'))
+const AudioButton = lazy(() => import('./AudioButton'))
 
 export const AudioPlayer = () => {
     const isSSR = typeof window === 'undefined'
 
     return !isSSR ? (
         <Suspense fallback={null}>
-            <ClientSideLazy audio={klovn} />
+            <AudioButton audio={klovn} />
         </Suspense>
     ) : null
 }

@@ -7,7 +7,12 @@ export const useAudio = url => {
     const toggle = () => setPlaying(!playing)
 
     useEffect(() => {
-        playing ? audio.play() : audio.pause()
+        const stop = () => {
+            audio.pause()
+            audio.currentTime = 0
+        }
+
+        playing ? audio.play() : stop()
     }, [playing])
 
     useEffect(() => {
