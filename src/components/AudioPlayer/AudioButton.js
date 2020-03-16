@@ -24,9 +24,10 @@ const AudioButton = ({ audio }) => {
     const [playing, toggle] = useAudio(audio)
 
     const icon = playing ? stop : play
+    const label = playing ? 'Stop' : 'Play'
 
     return (
-        <Button onClick={toggle}>
+        <Button onClick={toggle} aria-label={label}>
             <Icon icon={icon} />
         </Button>
     )

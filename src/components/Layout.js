@@ -24,10 +24,19 @@ const Main = styled.main`
 `
 
 const Head = () => (
-    <Helmet>
-        <meta charSet="utf-8" />
-        <title>Instant Klovn</title>
-    </Helmet>
+    <Helmet
+        title="Instant Klovn"
+        htmlAttributes={{
+            lang: 'en',
+        }}
+        meta={[
+            {
+                name: 'description',
+                content: 'Play the theme from the Danish TV-show Klovn.',
+            },
+            { property: 'charset', content: 'utf-8' },
+        ]}
+    />
 )
 
 export const Layout = ({ children }) => (
