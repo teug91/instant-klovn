@@ -1,8 +1,10 @@
 import React from 'react'
 import { AudioPlayer, Layout } from '../components'
 
-export default () => (
+const IndexPage = () => (
     <Layout>
         <AudioPlayer />
     </Layout>
 )
+
+export default IndexPage

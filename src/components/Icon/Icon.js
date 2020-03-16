@@ -1,5 +1,6 @@
 import React from 'react'
-import { colors } from '../../theme'
+import * as icons from './icons'
+import { oneOf } from 'prop-types'
 
 export const Icon = ({ icon }) => (
     <svg
@@ -11,3 +12,7 @@ export const Icon = ({ icon }) => (
         <path d={icon} fill="white" />
     </svg>
 )
+
+Icon.propTypes = {
+    icon: oneOf(Object.values(icons)).isRequired,
+}

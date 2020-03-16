@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useAudio } from './useAudio'
 import { Icon, play, stop } from '../Icon'
 import { colors } from '../../theme'
+import { string } from 'prop-types'
 
 const Button = styled.button`
     border: none;
@@ -29,6 +30,10 @@ const AudioButton = ({ audio }) => {
             <Icon icon={icon} />
         </Button>
     )
+}
+
+AudioButton.propTypes = {
+    audio: string.isRequired,
 }
 
 export default AudioButton

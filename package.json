@@ -5,20 +5,20 @@
     "version": "0.1.0",
     "author": "Terje Uglebakken",
     "dependencies": {
-        "gatsby": "^2.18.12",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
+        "gatsby": "^2.19.45",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
         "react-helmet": "^5.2.1",
-        "styled-components": "^4.4.1"
+        "styled-components": "^5.0.1"
     },
     "devDependencies": {
-        "@dhis2/cli-style": "^5.1.0",
-        "babel-plugin-styled-components": "^1.10.6",
-        "gatsby-plugin-manifest": "^2.2.34",
-        "gatsby-plugin-offline": "^3.0.30",
-        "gatsby-plugin-react-helmet": "^3.1.18",
-        "gatsby-plugin-styled-components": "^3.1.16",
-        "gh-pages": "^2.1.1",
+        "@dhis2/cli-style": "^6.0.0",
+        "babel-plugin-styled-components": "^1.10.7",
+        "gatsby-plugin-manifest": "^2.2.48",
+        "gatsby-plugin-offline": "^3.0.41",
+        "gatsby-plugin-react-helmet": "^3.1.24",
+        "gatsby-plugin-styled-components": "^3.1.21",
+        "gh-pages": "^2.2.0",
         "prettier": "^1.19.1",
         "prop-types": "^15.7.2"
     },

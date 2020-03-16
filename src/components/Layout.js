@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import { Header } from './Header'
 import Helmet from 'react-helmet'
+import { node } from 'prop-types'
 
 const BodyStyle = createGlobalStyle`
     body {
@@ -39,3 +40,7 @@ export const Layout = ({ children }) => (
         </Content>
     </>
 )
+
+Layout.propTypes = {
+    children: node,
+}
