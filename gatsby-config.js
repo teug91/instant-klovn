@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: '/',
+    pathPrefix: '/klovn/',
     siteMetadata: {
         title: 'Instant Klovn',
         description: 'Play the theme from the Danish TV-show Klovn.',
@@ -13,7 +13,7 @@ module.exports = {
             options: {
                 name: 'Instant Klovn',
                 short_name: 'Instant Klovn',
-                start_url: '/klovn/',
+                start_url: '/index.html',
                 background_color: 'white',
                 theme_color: 'white',
                 display: 'standalone',
