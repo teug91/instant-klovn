@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: '/klovn',
+    pathPrefix: '/',
     siteMetadata: {
         title: 'Instant Klovn',
         description: 'Play the theme from the Danish TV-show Klovn.',
